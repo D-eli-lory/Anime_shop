@@ -1,0 +1,15 @@
+﻿@model List<Animeshop.Domain.Entity.AProducts>
+
+@{
+
+}
+
+@foreach (var aproducts in Model)
+{
+    <p>@aproducts.ProductName</p>
+    <p>@aproducts.Title</p>
+    <p>@aproducts.Description</p>
+    <p>@aproducts.Quantity</p>
+    <p>@aproducts.Price</p>
+    <p>@aproducts.DateCreat</p>
+}
